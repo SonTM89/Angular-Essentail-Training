@@ -31,7 +31,7 @@ import { lookupListToken, lookupLists } from './providers';
     ReactiveFormsModule
   ],
   providers: [
-    { provide: 'lookupListsToken', useValue: lookupLists }
+    { provide: lookupListToken, useValue: lookupLists }
     //MediaItemService
   ],
   bootstrap: [AppComponent]
